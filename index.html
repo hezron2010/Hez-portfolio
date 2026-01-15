@@ -58,6 +58,11 @@
     .project, .experience {
       margin-bottom: 1rem;
     }
+    .project img {
+      max-width: 100%;
+      border-radius: 5px;
+      margin-top: 0.5rem;
+    }
     .contact-info p {
       margin: 0.2rem 0;
     }
@@ -67,6 +72,17 @@
       background-color: #1e3a8a;
       color: white;
       margin-top: 2rem;
+    }
+    .resume-button {
+      display: inline-block;
+      margin-top: 0.5rem;
+      padding: 0.5rem 1rem;
+      background-color: #1e3a8a;
+      color: white;
+      border-radius: 5px;
+    }
+    .resume-button:hover {
+      background-color: #15326a;
     }
   </style>
 </head>
@@ -97,26 +113,30 @@
 
 <section>
   <h2>Projects & Achievements</h2>
+
   <div class="project">
     <strong>Microsoft 365 Optimization</strong>
     <p>Streamlined Teams & SharePoint access for remote staff, reducing support tickets by 25%.</p>
+    <img src="images/diagram_1.png" alt="Teams Workflow Diagram">
   </div>
+
   <div class="project">
-    <strong>Scalable Onboarding System</strong>
-    <p>Developed step-by-step onboarding workflow for new hires, supporting simultaneous onboarding of 20+ employees.</p>
+    <strong>SharePoint Access Management</strong>
+    <p>Administered SharePoint permissions for remote teams, ensuring proper Read/Write/Owner access levels.</p>
+    <img src="images/diagram_2.png" alt="SharePoint Access Diagram">
   </div>
+
   <div class="project">
-    <strong>Remote Workforce Support</strong>
-    <p>Ensured reliable system performance for multi-state teams and quickly resolved email, password, and software issues.</p>
+    <strong>Scalable Onboarding Workflow</strong>
+    <p>Created a step-by-step onboarding workflow for new hires, including Teams & SharePoint access and account provisioning.</p>
+    <img src="images/diagram_3.png" alt="Onboarding Workflow Diagram">
   </div>
-  <div class="project">
-    <strong>IT Documentation & SOPs</strong>
-    <p>Created internal IT guides to improve first-contact resolution and reduce escalations.</p>
-  </div>
+
 </section>
 
 <section>
   <h2>Experience</h2>
+
   <div class="experience">
     <strong>Teleperformance – IT Support Specialist (Remote)</strong><br>
     <em>May 2023 – Present</em>
@@ -126,15 +146,17 @@
       <li>System optimization & documentation</li>
     </ul>
   </div>
+
   <div class="experience">
     <strong>Yaris Institute of Information – IT Officer</strong><br>
-    <em>Jan 2016 – April 2023</em>
+    <em>Jan 2016 – Sep 2024</em>
     <ul>
       <li>IT operations, server & network administration</li>
       <li>Microsoft 365 management for distributed teams</li>
       <li>Scalable onboarding workflows & IT asset management</li>
     </ul>
   </div>
+
   <div class="experience">
     <strong>Mazuma Enterprises – IT Officer Assistant</strong><br>
     <em>Jan 2012 – Dec 2015</em>
@@ -142,6 +164,7 @@
       <li>End-user support, documentation, and training</li>
     </ul>
   </div>
+
 </section>
 
 <section>
@@ -156,7 +179,9 @@
 
 <section>
   <h2>Resume</h2>
-  <p><a href="Hezron Mutua Peter-Resume_IT Support Specialist.pdf" target="_blank">Download Resume PDF</a></p>
+  <p>
+    <a href="Hezron Mutua Peter-Resume_IT Support Specialist.pdf" class="resume-button" target="_blank">Download Resume</a>
+  </p>
 </section>
 
 <section>
@@ -174,5 +199,3 @@
 
 </body>
 </html>
-
-
